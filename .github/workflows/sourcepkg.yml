@@ -20,3 +20,5 @@ jobs:
       run: |
         cd sourcepkg
         make check
+    - name: show libtailscale.a
+      run: find -name libtailscale.a | xargs ls -l
